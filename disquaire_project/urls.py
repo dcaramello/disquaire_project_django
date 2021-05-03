@@ -22,7 +22,7 @@ from store import views
 # toutes les urls
 # la methode url prend en parametre le schéma et la vue associée
 urlpatterns = [
-    path('index/', views.index),
+    path('', views.index),
     path('store/', include('store.urls')),
     path('admin/', admin.site.urls),
 ]
